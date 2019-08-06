@@ -1,0 +1,20 @@
+.handmade-slider  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.handmade-slider img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	transition: 0.2s;
+}
+.handmade-slider img.current { 
+  transition: 0.5s;
+  opacity: 1;
+}
